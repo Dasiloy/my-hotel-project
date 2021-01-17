@@ -175,7 +175,8 @@ body {
     position:absolute;
     left: 60%;
     top: 5%;
-    height: 600px;
+    width: 450px;
+    height: 540px;
 }
 
 .container-display {
@@ -258,14 +259,14 @@ body {
     width: 90px;
     height: 90px;
     position: absolute;
-    left: 38%;
+    left: 37%;
     top: -15%;
 }
 
 #contact .container {
     background-color:#f0e6eb;
     color: #0a223d;
-    border-radius:10px ;
+    border-radius:10px;
 }
 
 #contact h4 {
@@ -360,13 +361,23 @@ body {
     justify-content: space-between;
 }
 
+.service-img {
+    border-radius: 50%;
+    border: 1px solid #dd383a;
+    max-width: 70px;
+    max-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
 
 
 
 
 @media only screen and (max-width:1200px) {
     .display-header {
-        min-height: 50vh;
+        min-height: 30vh;
         text-align: center;
     }
 
@@ -385,15 +396,58 @@ body {
         margin-left: auto;
     }
 
+
+    .service-1,.service-2,.service-3 {
+        padding: 10px 10px !important;
+        margin-top: 25px;
+    }
+
+    .service-img {
+        border-radius: 50%;
+        border: 1px solid #dd383a;
+        max-width: 70px;
+        max-height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+    }
+    
+    .service-info {
+        min-width: 150px;
+        min-height: 100px;
+        color: #0a223d;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .service-info p{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .display-image-lg {
+        max-width:350px;
+        max-height: 460px;
+        top: 7%;
+    }
+
+    .btn-display {
+        display: block;
+        background-color: #dd383a;
+        color: white;
+        max-width: 50%;
+        padding: 10px 10px !important;
+        }
+
+}
+
+@media only screen and (max-width:990px) {
+
     .display-image-lg {
         display: none;
     }
-}
-
-
-
-
-@media only screen and (max-width:990px) {
 
     .bg-light {
         background-color: #e5e5e5 !important;
@@ -425,6 +479,30 @@ body {
     .display-footer {
         min-height: 20vh;
     }
+
+    .service-1,.service-2,.service-3 {
+        padding: 10px 4px !important;
+        margin-top: 25px;
+    }
+
+    .service-img {
+        border-radius: 50%;
+        border: 1px solid #dd383a;
+        max-width: 70px;
+        max-height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+    .btn-display {
+        display: block;
+        background-color: #dd383a;
+        color: white;
+        max-width: 50%;
+        padding: 10px 10px !important;
+        }
 }
 
 @media only screen and (max-width:767px) {
@@ -437,9 +515,21 @@ body {
         max-width: 100px;
         max-height: 100px;
         color: #0a223d;
-        padding: 0;
-        margin-left: 0;
+        padding: 0 !important;
+        margin-left:0;
    }
+
+   .service-info p{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left !important;
+    padding-right: 0 10px !important;
+}
+
+    .service-info h6 {
+        max-width: 80%;
+    }
 
    .service-img {
     border-radius: 50%;
@@ -449,12 +539,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    margin-left: 30px;
+    }
 
-.service-1,.service-2,.service-3 {
-    padding: 10px 4px !important;
-    margin-top: 25px;
-}
+    .btn-display {
+    display: block;
+    background-color: #dd383a;
+    color: white;
+    max-width: 50%;
+    padding: 10px 10px !important;
+    }
+
 
 }
 
@@ -489,6 +584,33 @@ body {
         font-size: 2.5rem;
     }
 
+    .service-info p{
+        max-width: 60%;
+        margin-left: 0;
+        text-align: left !important;
+        padding-right: 0 !important;
+    }
+    
+    .service-info h6 {
+        max-width: 60%;
+        margin-left: 0;
+    }
+
+    .service-img {
+        margin-left: 15px;
+    }
+
+    .service-1,.service-2,.service-3 {
+        margin-bottom: 40px !important;
+    }
+
+    .btn-display {
+        display: block;
+        background-color: #dd383a;
+        color: white;
+        max-width: 50%;
+        padding: 10px 10px !important;
+    }
 }
 
 
