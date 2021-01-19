@@ -2,7 +2,7 @@ $(document).ready(
   function(){
     $(window).scroll(
       function(){
-       $('#navbar').toggleClass('scroll',$(this).scrollTop() > 30); 
+       $('#navbar').toggleClass('scroll',$(this).scrollTop() > 90); 
       }
     );
 
