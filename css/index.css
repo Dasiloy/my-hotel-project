@@ -20,6 +20,7 @@ body {
     margin: 0;
     position: relative;
     min-height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #navbar {
@@ -44,6 +45,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    transition: all 0.5s;
 }
 
 .nav-item a{
@@ -54,20 +56,18 @@ body {
 .nav-item a:hover {
     color: #4f657e !important;
 }
+.nav-item a.nav-active {
+    color: red !important;
+    font-weight: bolder !important;
+}
 .list {
     display: inline-block;
     margin-right: 1.5rem;
 }
 
 .navbar-brand {
-    color: #dd383a !important;
     font-size: 2rem !important;
-}
-.navbar-brand .nav-span {
     color: #0a223d;
-}
-.nav-item .nav-home {
-    color: #dd383a !important;
 }
 
 .dropdown-menu {
@@ -82,7 +82,6 @@ body {
     background-color: #fff !important;
     opacity: 0.9;
 }
-
 
 .rate-para {
     max-width: 60%;
@@ -159,9 +158,9 @@ body {
 }
 
 .service-info {
-     width: 200px;
-     height: 200px;
-     color: #0a223d;
+    width: 200px;
+    height: 200px;
+    color: #0a223d;
 }
 
 .service-info p {
@@ -211,10 +210,6 @@ body {
 .btn-rate-all:hover {
     color: #dd383a !important;
     opacity: 0.7;
-}
-
-.about-header {
-    color: #dd383a;
 }
 
 .about-header-head {
@@ -387,14 +382,16 @@ body {
 
 .seeall_button {
     display: block;
-    background-color: #f0e6eb !important;
-    color: #dd383a;
+    background-color: red !important;
+    color: white;
+    font-weight: bolder;
     transition: all 0.5s;
 }
 
 .seeall_button:hover {
     background-color: #f0dce5 !important;
     color: red;
+    font-weight: bolder;
 }
 
 
@@ -410,7 +407,7 @@ body {
 
 .bg-special {
     background-color: #e4e2e2;
-    }
+}
 
 
 
