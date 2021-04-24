@@ -22,7 +22,7 @@
                     <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item list">
-                    <a class="nav-link" href="#">RESERVATION</a>
+                    <a class="nav-link" href="">RESERVATION</a>
                 </li>
                 <li class="nav-item list dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -34,11 +34,11 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">CLASSIC SUPERIOR ROOMS</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">EXECUTIVE SUITE</a>
+                        <a class="dropdown-item" href="">EXECUTIVE SUITE</a>
                     </div>
                 </li>
                 <li class="nav-item list">
-                    <a class="nav-link" href="#">SPECIAL OFFER</a>
+                    <a class="nav-link" href="">SPECIAL OFFER</a>
                 </li>
                 <li class="nav-item list">
                     <a class="nav-link" href="Facilities.html">FACILITIES</a>
@@ -47,7 +47,7 @@
                     <a class="nav-link nav-active" href="Contact_us.html">CONTACT US <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
+                    <a class="nav-link" href="">BLOG</a>
                 </li>
             </ul>
         </div>
@@ -55,8 +55,42 @@
     <header class="container-fluid px-4 facility-header py-3">
         <img src="images\Contact-header.png" alt="Header" class="img-fluid">
     </header>
-
-
+    <div class="row m-5">
+        <section class="col-sm-4">
+            <h2 class="">Keep in touch</h2>
+            <article class="mt-5 mb-4">
+                <i class="fa fa-map-marker icon-item mr-1 mr-md-2" aria-hidden="true"></i>
+                <a href="" class="text-muted contact-details">Plot 54, Victoria Island, Lagos Nigeria.</a>
+            </article>
+            <article class="mb-4">
+                <i class="fa fa-envelope icon-item mr-1 mr-md-2" aria-hidden="true"></i>
+                <a href="mailto:hello@myhotel.com" class="text-muted contact-details">hello@myhotel.com</a>
+            </article>
+            <article class="mb-4">
+                <i class="fa fa-phone icon-item mr-1 mr-md-2" aria-hidden="true"></i>
+                <a href="tel:+2340123456789" class="text-muted contact-details">+234 012 345 6789</a>
+            </article>
+        </section>
+        <section class="col-sm-8">
+           <form name="contactForm" class="contact-form" onsubmit="submitContactForm()">
+                <div class="row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" name="contactFormName" class="form-control p-4 border-dark" id="" placeholder="Name" title="Name" value="">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" name="contactFormEmail" class="form-control p-4 border-dark" id="" placeholder="Email" value="">
+                    </div>
+                </div>
+               <div class="form-group">
+                   <input type="text" name="contactFormSubject" class="form-control p-4 border-dark" id="" placeholder="Subject" value="">
+               </div>
+               <div class="form-group">
+                   <textarea name="contactFormBody" id="" cols="30" rows="10" class="form-control p-4 border-dark" placeholder="Tell us how we can help you" required></textarea>
+               </div>
+                <input type="submit" name="contactFormSubmit" class="btn btn-danger btn-lg py-3 px-5 mt-2 float-right" id="contact-form-submit" value="Submit">
+           </form>
+        </section>
+    </div>
 
     <section class="container-fluid px-4 facility-header py-3">
         <img src="images\Overhead-map-snapshot.png" alt="Header" class="img-fluid">
@@ -69,22 +103,22 @@
                         <div class="col-4 col-footer pt-1">
                             <h5 class="text-muted mb-4 font-weight-bold">COMPANY</h5>
                             <p class="">
-                                <a href="#">About Us</a>
+                                <a href="">About Us</a>
                             </p>
                             <p class="">
-                                <a href="#">Rooms</a>
+                                <a href="">Rooms</a>
                             </p>
                             <p class="">
-                                <a href="#">Blog</a>
+                                <a href="">Blog</a>
                             </p>
                             <p class="">
-                                <a href="#">Support</a>
+                                <a href="">Support</a>
                             </p>
                             <p class="">
-                                <a href="#">Career</a>
+                                <a href="">Career</a>
                             </p>
                             <p class="">
-                                <a href="#">FAQ</a>
+                                <a href="">FAQ</a>
                             </p>
                         </div>
 
@@ -92,29 +126,29 @@
                             <h5 class="text-muted mb-4 font-weight-bold">SOCIAL</h5>
                             <p class="">
                                 <i class="fab fa-twitter icon-item mr-1"></i>
-                                <a href="#">Twitter</a>
+                                <a href="">Twitter</a>
                             </p>
                             <p class="">
                                 <i class="fab fa-facebook icon-item mr-1"></i>
-                                <a href="#">Facebook</a>
+                                <a href="">Facebook</a>
                             </p>
                             <p class="">
                                 <i class="fab fa-linkedin icon-item mr-1"></i>
-                                <a href="#">LinkedIn</a>
+                                <a href="">LinkedIn</a>
                             </p>
                             <p class="">
                                 <i class="fab fa-instagram icon-item mr-1"></i>
-                                <a href="#">Instagram </a>
+                                <a href="">Instagram </a>
                             </p>
                         </div>
 
                         <div class="col-4 col-footer pt-1">
                             <h5 class="text-muted mb-4 font-weight-bold">LEGAL</h5>
                             <p class="">
-                                <a href="#">Privacy Policy</a>
+                                <a href="">Privacy Policy</a>
                             </p>
                             <p class="">
-                                <a href="#">Terms of Service</a>
+                                <a href="">Terms of Service</a>
                             </p>
                         </div>
 
@@ -122,9 +156,9 @@
                 </div>
                 <div class="col-12 col-lg-5 mx-auto col-footer">
                     <h6 class="text-muted font-weight-bold">SIGN UP FOR OUR NEWSLETTER</h6>
-                    <form class="py-2 mt-3 form-width">
-                        <input type="email" class="px-4 py-4 special-input" placeholder="Input your email here">
-                        <a href="#" class="btn btn-footer mx-auto py-3 px-4 mt-1">SIGN UP</a>
+                    <form name="emailSubs" class="py-2 mt-3 form-width" onsubmit="return validateSubscriberEmail()">
+                        <input type="email" name="subsEmail" class="px-4 py-4 special-input" placeholder="Input your email here">
+                        <input type="submit" name="submitEmail" value="SIGN UP" class="btn btn-footer mx-auto py-3 px-4 mt-1">
                     </form>
                     <h6 class="text-muted mt-5 mb-3 font-weight-bold">KEEP IN TOUCH</h6>
                     <div class="mb-3">
