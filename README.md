@@ -1,2 +1,2 @@
 # my-hotel-project
-a complete front-end project of an hotel website
+a complete front-end projrct of an hotel website
